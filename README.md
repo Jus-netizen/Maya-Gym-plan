@@ -1,3 +1,3 @@
-to do
-add cardio sections
-add start your journey encouragement gifs
+to do <br>
+- add cardio sections <br>
+- add start your journey encouragement gifs
