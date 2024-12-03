@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner Workout Plan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Sculpt Your Dream Physique</h1>
+    <p>Beginner-friendly workouts to tone, strengthen, and achieve balance in just 3 days a week.</p>
+    <a href="#workout-plan" class="cta-button">Start Your Journey</a>
+  </header>
+
+  <main>
+    <section id="workout-plan" class="workout-plan">
+      <h2>3-Day Workout Plan</h2>
+      <div class="days">
+        <div class="day-card" onclick="showDetails(1)">
+          <h3>Day 1: Lower Body</h3>
+          <p>Focus on legs and glutes.</p>
+        </div>
+        <div class="day-card" onclick="showDetails(2)">
+          <h3>Day 2: Upper Body & Core</h3>
+          <p>Build strength and tone your arms and core.</p>
+        </div>
+        <div class="day-card" onclick="showDetails(3)">
+          <h3>Day 3: Full Body</h3>
+          <p>Combine glutes, legs, and upper body.</p>
+        </div>
+      </div>
+
+      <div id="details" class="details">
+        <!-- Dynamic content will be injected here by JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Fitness Journey. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
