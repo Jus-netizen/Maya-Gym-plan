@@ -16,7 +16,10 @@ const workoutDetails = [
         <li>Romanian Deadlifts: 3 sets x 10-12 reps</li>
         <li>Step-Ups: 3 sets x 12 reps per leg</li>
       </ul>
-    `,
+      <strong>Cool Down</strong>
+      <ul>
+        <li>Incline Walk: 10 minutes</li>
+      </ul>    `,
   },
   {
     title: "Day 2: Upper Body & Core",
@@ -33,6 +36,10 @@ const workoutDetails = [
         <li>Machine Row: 3 sets x 12-15 reps</li>
         <li>Push-Ups: 3 sets x 15-20 reps</li>
         <li>Plank Hold: 3 sets x 30-60 seconds</li>
+      </ul>
+       <strong>Cool Down</strong>
+      <ul>
+        <li>Stairs(Machine): 10 minutes</li>
       </ul>
     `,
   },
@@ -52,6 +59,10 @@ const workoutDetails = [
         <li>Machine Shoulder Press: 3 sets x 10-12 reps</li>
         <li>Mountain Climbers: 3 sets x 30 seconds</li>
         <li>Russian Twists: 3 sets x 20 twists (10 per side)</li>
+      </ul>
+      <strong>Cool Down</strong>
+      <ul>
+        <li>Cycling: 10 minutes</li>
       </ul>
     `,
   },
