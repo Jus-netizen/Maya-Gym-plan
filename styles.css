@@ -1,60 +1,17 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #333;
-}
-
-.hero {
-  background: #f7c8d2;
-  color: #fff;
-  text-align: center;
-  padding: 50px 20px;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.hero .cta-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
+.day-card button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
   background: #ff6b6b;
   color: #fff;
-  text-decoration: none;
+  border: none;
   border-radius: 5px;
-}
-
-.workout-plan {
-  padding: 20px;
-  background: #fdfdfd;
-}
-
-.workout-plan h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.days {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-}
-
-.day-card {
-  flex: 1;
-  background: #e4e7ec;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
   cursor: pointer;
 }
 
-.day-card:hover {
-  background: #d1d5db;
+.day-card button:hover {
+  background: #ff4b4b;
 }
 
 .details {
@@ -62,5 +19,5 @@ body {
   padding: 20px;
   background: #f0f4f8;
   border-radius: 5px;
-  display: none;
+  display: none; /* Hidden by default */
 }
