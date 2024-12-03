@@ -1,4 +1,5 @@
 // Workout details data
+
 const workoutDetails = [
   {
     title: "Day 1: Lower Body",
